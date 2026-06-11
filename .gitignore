@@ -1,0 +1,49 @@
+# === Environment & Secrets ===
+.env
+*.env
+.env.*
+!.env.example
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# === Celery ===
+celerybeat-schedule
+celerybeat.pid
+
+# === Resume PDFs (runtime generated) ===
+resumes/
+*.pdf
+
+# === Node / Next.js ===
+node_modules/
+.next/
+out/
+.npm
+*.tsbuildinfo
+
+# === Database runtime ===
+*.db
+*.sqlite3
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
